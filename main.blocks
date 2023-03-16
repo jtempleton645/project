@@ -1,4 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Y$jNedx]o=-o_!=f3q^7" x="0" y="0"><statement name="HANDLER"><block type="set_current_tilemap" id="))HJQ[,`iks-+{Z?jTVR"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="0OgbBl=1B,Bq|v^,[?m="><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value><next><block type="gamesetbackgroundimage" id="3~K9KDa2fyjTq,P,72n:"><value name="img"><shadow type="background_image_picker" id="{J-Dc=X?sqcKX2[|^RnT"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="eu6DX4upljd5-9cjAFYR">Player</variable><variable type="KIND_SpriteKind" id="s:Sx{R#DGo=io$7Se9JT">Projectile</variable><variable type="KIND_SpriteKind" id="qtNaGC]8J-]Hl[T|/kD0">Food</variable><variable type="KIND_SpriteKind" id="gZv7NmuK3L$=FrLrPi}o">Enemy</variable><variable id="09f;^2:gnU#$g5r8s7K0">mySprite</variable></variables><block type="pxt-on-start" id="Y$jNedx]o=-o_!=f3q^7" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="/`km-?z*RMzP:jM|]HM,"><field name="VAR" id="09f;^2:gnU#$g5r8s7K0">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="7G_uQPynYgUL50*0[7sC"><value name="img"><shadow type="screen_image_picker" id="cI)F+7y#bM*#s3ezDa@^"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . e e e e e e . . . . . . 
+. . . . d d d d d d . . . . . . 
+. . . . d f d d d f . . . . . . 
+. . . . d d d d d d . . . . . . 
+. . . d 8 8 8 8 8 8 d . . . . . 
+. . d d 8 8 8 8 8 8 d d . . . . 
+. d d . 8 8 8 8 8 8 . d d . . . 
+. d . . 8 8 8 8 8 8 . . d . . . 
+. . . . 8 8 8 8 8 8 . . . . . . 
+. . . . 1 . . . . 1 . . . . . . 
+. . . . 1 . . . . 1 . . . . . . 
+. . . . e . . . . e . . . . . . 
+. . . . e . . . . e . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"cI)F+7y#bM*#s3ezDa@^"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="E[LB_tyHNyIO:q)84a]`"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="JNSQPj3GuyN,%l0$o{Bv"><value name="sprite"><block type="variables_get" id="`1bIgpiWOnv*cSPjZRPY"><field name="VAR" id="09f;^2:gnU#$g5r8s7K0">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="#QGIE;~!y#~or$4:2q%$"><field name="index">15</field></shadow></value><value name="y"><shadow type="positionPicker" id="hrOM=XP$I6^O|kT5**n3"><field name="index">65</field></shadow></value><next><block type="set_current_tilemap" id="))HJQ[,`iks-+{Z?jTVR"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="0OgbBl=1B,Bq|v^,[?m="><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value><next><block type="gamesetbackgroundimage" id="3~K9KDa2fyjTq,P,72n:"><value name="img"><shadow type="background_image_picker" id="{J-Dc=X?sqcKX2[|^RnT"><field name="img">img`
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
@@ -119,4 +136,4 @@ dddddddddddd66666dddddddddddd99999999999dddddddddddd66666dddddddddddd99999999999
 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
 6666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666
-`</field><data>{"commentRefs":[],"fieldData":{"img":"{J-Dc=X?sqcKX2[|^RnT"}}</data></shadow></value></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"{J-Dc=X?sqcKX2[|^RnT"}}</data></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
